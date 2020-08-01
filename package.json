@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/gisma87/learn-to-learn.git"
+    "url": "git+ssh://git@github.com:gisma87/01_Learn-to-learn_Animation.git"
   },
   "browserslist": "> 0.25%, not dead",
   "author": "Маньков Станислав",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gisma87/learn-to-learn/issues"
+    "url": "https://gisma87.github.io/01_Learn-to-learn_Animation/issues"
   },
-  "homepage": "https://github.com/gisma87/learn-to-learn#readme",
+  "homepage": "https://github.com/gisma87/01_Learn-to-learn_Animation/#readme",
   "devDependencies": {
     "@babel/cli": "7.10.3",
     "@babel/core": "7.10.3",
