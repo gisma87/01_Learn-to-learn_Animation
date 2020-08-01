@@ -1,0 +1,51 @@
+{
+  "name": "learn-to-learn",
+  "version": "1.0.0",
+  "description": "Научиться учиться",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gisma87/learn-to-learn.git"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "author": "Маньков Станислав",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gisma87/learn-to-learn/issues"
+  },
+  "homepage": "https://github.com/gisma87/learn-to-learn#readme",
+  "devDependencies": {
+    "@babel/cli": "7.10.3",
+    "@babel/core": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "autoprefixer": "9.8.0",
+    "babel-loader": "8.1.0",
+    "cross-env": "7.0.2",
+    "css-loader": "3.5.3",
+    "cssnano-webpack-plugin": "1.0.3",
+    "file-loader": "6.0.0",
+    "gh-pages": "3.0.0",
+    "html-webpack-plugin": "4.3.0",
+    "image-webpack-loader": "6.0.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "optimize-css-assets-webpack-plugin": "5.0.3",
+    "postcss-loader": "3.0.0",
+    "style-loader": "1.2.1",
+    "terser-webpack-plugin": "3.0.2",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "core-js": "3.4.1",
+    "normalize.css": "8.0.1"
+  }
+}
