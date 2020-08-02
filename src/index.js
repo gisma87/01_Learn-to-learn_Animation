@@ -1,7 +1,7 @@
 import './styles/style.css';
 import './styles/animation.css';
 
-const arrAnimation = document.querySelectorAll('.animated');
+const arrAnimation = document.querySelectorAll('.animated-parent');
 
 function visibility() {
     arrAnimation.forEach(element => {
@@ -11,7 +11,6 @@ function visibility() {
             element.classList.add('go');
         } else {
             element.classList.remove('go');
-            element.style.opacity = '0';
         }
     });
 }

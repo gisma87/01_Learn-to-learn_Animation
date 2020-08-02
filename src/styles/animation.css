@@ -1,15 +1,7 @@
-/*animations*/
-
 /******************
 * Bounce in right *
 *******************/
 
-.animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-}
 .slow{
     -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;
@@ -29,7 +21,7 @@
     animation-fill-mode: both;
 }
 
-/* Added by Andy Meetan */
+/* delay */
 .delay-250 {
     -webkit-animation-delay:0.25s;
     -moz-animation-delay:0.25s;
@@ -109,17 +101,6 @@
     animation-delay:3.5s;
 }
 
-.bounceInRight.go, .bounceInLeft.go, .bounceInUp.go, .bounceInDown.go{
-    opacity:0;
-    -webkit-transform: translateX(400px);
-    transform: translateX(400px);
-}
-.fadeInRight.go, .fadeInLeft.go, .fadeInUp.go, .fadeInDown.go{
-    opacity:0;
-    -webkit-transform: translateX(400px);
-    transform: translateX(400px);
-}
-
 .rotateIn, .rotateInUpLeft, .rotateInUpRight, .rotateInDownLeft, .rotateDownUpRight{
     opacity:0;
 }
@@ -167,9 +148,13 @@
     }
 }
 
-.bounceIn.go {
+.animated-parent.go .bounceIn {
     -webkit-animation-name: bounceIn;
     animation-name: bounceIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /****************
@@ -217,9 +202,13 @@
 }
 
 
-.bounceInRight.go {
+.animated-parent.go .bounceInRight {
     -webkit-animation-name: bounceInRight;
     animation-name: bounceInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /******************
@@ -266,9 +255,13 @@
     }
 }
 
-.bounceInLeft.go {
+.animated-parent.go .bounceInLeft {
     -webkit-animation-name: bounceInLeft;
     animation-name: bounceInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /******************
@@ -315,9 +308,13 @@
     }
 }
 
-.bounceInUp.go {
+.animated-parent.go .bounceInUp {
     -webkit-animation-name: bounceInUp;
     animation-name: bounceInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 
@@ -365,9 +362,13 @@
     }
 }
 
-.bounceInDown.go {
+.animated-parent.go .bounceInDown {
     -webkit-animation-name: bounceInDown;
     animation-name: bounceInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 
@@ -387,9 +388,13 @@
 .fadeIn{
     opacity:0;
 }
-.fadeIn.go {
+.animated-parent.go .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /**********
@@ -424,15 +429,14 @@
         opacity:1;
     }
 }
-.growIn {
 
-    -webkit-transform: scale(0.2);
-    transform: scale(0.2);
-    opacity:0;
-}
-.growIn.go{
+.animated-parent.go .growIn{
     -webkit-animation-name: growIn;
     animation-name: growIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /********
@@ -448,9 +452,13 @@
     10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
     20%, 40%, 60%, 80% {transform: translateX(10px);}
 }
-.shake.go {
+.animated-parent.go .shake {
     -webkit-animation-name: shake;
     animation-name: shake;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /********
@@ -466,9 +474,13 @@
     10%, 30%, 50%, 70%, 90% {transform: translateY(-10px);}
     20%, 40%, 60%, 80% {transform: translateY(10px);}
 }
-.shakeUp.go {
+.animated-parent.go .shakeUp {
     -webkit-animation-name: shakeUp;
     animation-name: shakeUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /*************
@@ -501,14 +513,14 @@
         transform: translateX(0);
     }
 }
-.fadeInLeft{
-    opacity: 0;
-    -webkit-transform: translateX(-400px);
-    transform: translateX(-400px);
-}
-.fadeInLeft.go {
+
+.animated-parent.go .fadeInLeft {
     -webkit-animation-name: fadeInLeft;
     animation-name: fadeInLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 
@@ -542,14 +554,14 @@
         transform: translateX(0);
     }
 }
-.fadeInRight{
-    opacity: 0;
-    -webkit-transform: translateX(400px);
-    transform: translateX(400px);
-}
-.fadeInRight.go {
+
+.animated-parent.go .fadeInRight {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /*************
@@ -582,14 +594,14 @@
         transform: translateY(0);
     }
 }
-.fadeInUp.go{
-    opacity: 0;
-    -webkit-transform: translateY(400px);
-    transform: translateY(400px);
-}
-.fadeInUp.go {
+
+.animated-parent.go .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /*************
@@ -622,14 +634,14 @@
         transform: translateY(0);
     }
 }
-.fadeInDown.go{
-    opacity: 0;
-    -webkit-transform: translateY(-400px);
-    transform: translateY(-400px);
-}
-.fadeInDown.go {
+
+.animated-parent.go .fadeInDown {
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /*****************
@@ -659,9 +671,13 @@
         opacity: 1;
     }
 }
-.rotateIn.go {
+.animated-parent.go .rotateIn {
     -webkit-animation-name: rotateIn;
     animation-name: rotateIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /*****************
@@ -692,9 +708,13 @@
         opacity: 1;
     }
 }
-.rotateInUpLeft.go {
+.animated-parent.go .rotateInUpLeft {
     -webkit-animation-name: rotateInUpLeft;
     animation-name: rotateInUpLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /*******************
@@ -724,9 +744,13 @@
         opacity: 1;
     }
 }
-.rotateInDownLeft.go {
+.animated-parent.go .rotateInDownLeft {
     -webkit-animation-name: rotateInDownLeft;
     animation-name: rotateInDownLeft;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /******************
@@ -757,9 +781,13 @@
         opacity: 1;
     }
 }
-.rotateInUpRight.go {
+.animated-parent.go .rotateInUpRight {
     -webkit-animation-name: rotateInUpRight;
     animation-name: rotateInUpRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
 
 /********************
@@ -790,7 +818,11 @@
         opacity: 1;
     }
 }
-.rotateInDownRight.go {
+.animated-parent.go .rotateInDownRight {
     -webkit-animation-name: rotateInDownRight;
     animation-name: rotateInDownRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
