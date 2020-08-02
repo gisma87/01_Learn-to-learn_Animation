@@ -32,26 +32,38 @@
 
   <main class="content">
     <section class="description">
-      <div class="two-columns animated-parent">
-        <h2 class="two-columns__brief bounceInLeft delay-250">Главные проблемы в обучении</h2>
+      <div class="two-columns">
+        <div class="animated-parent">
+          <h2 class="two-columns__brief bounceInLeft delay-250">Главные проблемы в обучении</h2>
+        </div>
+
         <div class="two-columns__main-text">
-          <p class="two-columns__paragraph fadeInUp delay-250">
-            Ни в школе, ни в институте нас не учат тому, как правильно
-            изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
-            тренируемся решать однообразные задачи, чтобы лучше сдать тест,
-            но часто в итоге это не дает нам реального знания. Зубрежка
-            быстро выветривается и не приносит пользы.
-          </p>
-          <p class="two-columns__paragraph fadeInUp delay-500">
-            <span class="two-columns__span-accent">Вывод:</span> учиться
-            тоже нужно уметь, но почему-то этому мало где учат. Что с этим
-            делать?
-          </p>
-          <p class="two-columns__paragraph fadeInUp delay-750">
-            Конкретные техники и упражнения помогают изменить подход к
-            обучению, сделать его эффективным и захватывающим. Эти же
-            техники применяются на примере обучения в Практикуме.
-          </p>
+          <div class="animated-parent">
+            <p class="two-columns__paragraph fadeInUp delay-250">
+              Ни в школе, ни в институте нас не учат тому, как правильно
+              изучать материал. Мы готовимся к экзаменам и учим билеты. Мы
+              тренируемся решать однообразные задачи, чтобы лучше сдать тест,
+              но часто в итоге это не дает нам реального знания. Зубрежка
+              быстро выветривается и не приносит пользы.
+            </p>
+          </div>
+
+          <div class="animated-parent">
+            <p class="two-columns__paragraph fadeInUp delay-500">
+              <span class="two-columns__span-accent">Вывод:</span> учиться
+              тоже нужно уметь, но почему-то этому мало где учат. Что с этим
+              делать?
+            </p>
+          </div>
+
+          <div class="animated-parent">
+            <p class="two-columns__paragraph fadeInUp delay-750">
+              Конкретные техники и упражнения помогают изменить подход к
+              обучению, сделать его эффективным и захватывающим. Эти же
+              техники применяются на примере обучения в Практикуме.
+            </p>
+          </div>
+
         </div>
       </div>
     </section>
@@ -59,70 +71,83 @@
     <section class="technics">
       <h2 class="section-title">Техники обучения</h2>
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-      <div class="cards animated-parent">
-        <div class="cards__item bounceInDown delay-750 slow">
-          <img
-                  class="cards__image"
-                  src="<%=require('./images/attention.png')%>"
-                  alt="attention"
-          />
-          <h3 class="cards__title">Два вида внимания</h3>
-          <p class="cards__description">
-            Глубокие знания возникают, если чередовать сфокусированное и
-            рассеянное мышление.
-          </p>
+      <div class="cards">
+        <div class="animated-parent">
+          <div class="cards__item bounceInDown delay-750 slow">
+            <img
+                    class="cards__image"
+                    src="<%=require('./images/attention.png')%>"
+                    alt="attention"
+            />
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">
+              Глубокие знания возникают, если чередовать сфокусированное и
+              рассеянное мышление.
+            </p>
+          </div>
         </div>
-        <div class="cards__item bounceInUp delay-750 slow">
-          <img class="cards__image" src="<%=require('./images/recall.png')%>" alt="recall"/>
-          <h3 class="cards__title">Recall</h3>
-          <p class="cards__description">
-            Вспоминайте изученное — это позволит соединить разрозненные
-            порции памяти.
-          </p>
+        <div class="animated-parent">
+          <div class="cards__item bounceInUp delay-750 slow">
+            <img class="cards__image" src="<%=require('./images/recall.png')%>" alt="recall"/>
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">
+              Вспоминайте изученное — это позволит соединить разрозненные
+              порции памяти.
+            </p>
+          </div>
         </div>
-        <div class="cards__item bounceInDown delay-750 slow">
-          <img
-                  class="cards__image"
-                  src="<%=require('./images/interliving.png')%>"
-                  alt="interliving"
-          />
-          <h3 class="cards__title">Интерливинг</h3>
-          <p class="cards__description">
-            Изучайте несколько навыков одновременно, они обогащают друг
-            друга.
-          </p>
+        <div class="animated-parent">
+          <div class="cards__item bounceInDown delay-750 slow">
+            <img
+                    class="cards__image"
+                    src="<%=require('./images/interliving.png')%>"
+                    alt="interliving"
+            />
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">
+              Изучайте несколько навыков одновременно, они обогащают друг
+              друга.
+            </p>
+          </div>
         </div>
-        <div class="cards__item bounceInUp delay-750 slow">
-          <img
-                  class="cards__image"
-                  src="<%=require('./images/question.png')%>"
-                  alt="question"
-          />
-          <h3 class="cards__title">Вопросы</h3>
-          <p class="cards__description">
-            Слушая преподавателя, придумывайте хороший вопрос, который вас
-            действительно волнует.
-          </p>
+        <div class="animated-parent">
+          <div class="cards__item bounceInUp delay-750 slow">
+            <img
+                    class="cards__image"
+                    src="<%=require('./images/question.png')%>"
+                    alt="question"
+            />
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">
+              Слушая преподавателя, придумывайте хороший вопрос, который вас
+              действительно волнует.
+            </p>
+          </div>
         </div>
-        <div class="cards__item bounceInDown delay-750 slow">
-          <img
-                  class="cards__image"
-                  src="<%=require('./images/competence.png')%>"
-                  alt="competence"
-          />
-          <h3 class="cards__title">Иллюзия компетентности</h3>
-          <p class="cards__description">
-            Повторите про себя, запишите, расскажите другу: вам только
-            кажется, что вы владеете новой темой.
-          </p>
+        <div class="animated-parent">
+          <div class="cards__item bounceInDown delay-750 slow">
+            <img
+                    class="cards__image"
+                    src="<%=require('./images/competence.png')%>"
+                    alt="competence"
+            />
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">
+              Повторите про себя, запишите, расскажите другу: вам только
+              кажется, что вы владеете новой темой.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="video animated-parent">
-      <h2 class="section-title growIn">Видео нa TED</h2>
-      <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-      <div class="video__iframes">
+    <section class="video">
+      <div class="animated-parent">
+        <h2 class="section-title growIn">Видео нa TED</h2>
+        <p class="section-subtitle growIn">Для тех, кто любит прокрастинировать</p>
+      </div>
+
+      <div class="video__iframes animated-parent">
         <iframe
                 class="video__iframe fadeInLeft slow delay-500"
                 src="https://www.youtube.com/embed/arj7oStGLkU"
@@ -156,160 +181,204 @@
       </div>
     </section>
 
-    <section class="feinman animated-parent">
-      <h2 class="feinman__title growIn delay-750">Метод Фейнмана</h2>
-      <p class="feinman__subtitle bounceInLeft delay-1000">Выучить и не забыть.</p>
-      <a class="feinman__link bounceInRight delay-1000" href="#">Подробнее &rarr;</a>
+    <section class="feinman">
+      <div class="animated-parent"><h2 class="feinman__title growIn delay-750">Метод Фейнмана</h2></div>
+      <div class="animated-parent"><p class="feinman__subtitle bounceInLeft delay-1000">Выучить и не забыть.</p></div>
+      <div class="animated-parent"><a class="feinman__link bounceInRight delay-1000" href="#">Подробнее &rarr;</a></div>
     </section>
 
-    <section class="digits animated-parent">
-      <h2 class="section-title growIn">Цифры и факты</h2>
-      <p class="section-subtitle growIn delay-750">Про учёбу и мозг</p>
+    <section class="digits">
+      <div class="animated-parent"><h2 class="section-title growIn">Цифры и факты</h2></div>
+      <div class="animated-parent"><p class="section-subtitle growIn delay-750">Про учёбу и мозг</p></div>
       <div class="table">
-        <div class="table__cell bounceInDown delay-750 slow">
-          <h3 class="table__heading">86 миллиардов</h3>
-          <p class="table__text">Число нейронов в мозге человека</p>
+        <div class="animated-parent">
+          <div class="table__cell bounceInDown delay-750 slow">
+            <h3 class="table__heading">86 миллиардов</h3>
+            <p class="table__text">Число нейронов в мозге человека</p>
+          </div>
         </div>
-        <div class="table__cell bounceInUp delay-750 slow">
-          <h3 class="table__heading">2.1 миллиарда</h3>
-          <p class="table__text">
-            Число нуждающихся в повышении квалификации
-          </p>
-          <p class="table__text">Всемирный Банк, 2017</p>
+        <div class="animated-parent">
+          <div class="table__cell bounceInUp delay-750 slow">
+            <h3 class="table__heading">2.1 миллиарда</h3>
+            <p class="table__text">
+              Число нуждающихся в повышении квалификации
+            </p>
+            <p class="table__text">Всемирный Банк, 2017</p>
+          </div>
         </div>
-        <div class="table__cell bounceInDown delay-750 slow">
-          <h3 class="table__heading">1000 терабайт</h3>
-          <p class="table__text">Объём памяти человека</p>
+        <div class="animated-parent">
+          <div class="table__cell bounceInDown delay-750 slow">
+            <h3 class="table__heading">1000 терабайт</h3>
+            <p class="table__text">Объём памяти человека</p>
+          </div>
         </div>
-        <div class="table__cell bounceInUp delay-750 slow">
-          <h3 class="table__heading">500 триллионов</h3>
-          <p class="table__text">
-            Число ответственных за обучение нервных синапсов у взрослого
-            человека
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell bounceInUp delay-750 slow">
+            <h3 class="table__heading">500 триллионов</h3>
+            <p class="table__text">
+              Число ответственных за обучение нервных синапсов у взрослого
+              человека
+            </p>
+          </div>
         </div>
-        <div class="table__cell bounceInDown delay-1000 slow">
-          <h3 class="table__heading">420 миллионов</h3>
-          <p class="table__text">
-            Число взрослых людей моложе 25 лет, не имеющих образования для
-            трудоустройства
-          </p>
-          <p class="table__text">Всемирный Банк, 2017</p>
+        <div class="animated-parent">
+          <div class="table__cell bounceInDown delay-1000 slow">
+            <h3 class="table__heading">420 миллионов</h3>
+            <p class="table__text">
+              Число взрослых людей моложе 25 лет, не имеющих образования для
+              трудоустройства
+            </p>
+            <p class="table__text">Всемирный Банк, 2017</p>
+          </div>
         </div>
-        <div class="table__cell bounceInUp delay-1000 slow">
-          <h3 class="table__heading">17–20 лет</h3>
-          <p class="table__text">Пик обучаемости</p>
+        <div class="animated-parent">
+          <div class="table__cell bounceInUp delay-1000 slow">
+            <h3 class="table__heading">17–20 лет</h3>
+            <p class="table__text">Пик обучаемости</p>
+          </div>
         </div>
-        <div class="table__cell bounceInDown delay-1000 slow">
-          <h3 class="table__heading">1885 год</h3>
-          <p class="table__text">Открытие кривой забывания</p>
+        <div class="animated-parent">
+          <div class="table__cell bounceInDown delay-1000 slow">
+            <h3 class="table__heading">1885 год</h3>
+            <p class="table__text">Открытие кривой забывания</p>
+          </div>
         </div>
-        <div class="table__cell bounceInUp delay-1000 slow">
-          <h3 class="table__heading">1889 год</h3>
-          <p class="table__text">Открытие условного рефлекса</p>
+        <div class="animated-parent">
+          <div class="table__cell bounceInUp delay-1000 slow">
+            <h3 class="table__heading">1889 год</h3>
+            <p class="table__text">Открытие условного рефлекса</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="khan">
-      <div class="khan__container animated-parent">
-        <p class="khan__author fadeInLeft delay-250">Салман Хан</p>
-        <h3 class="khan__title fadeInLeft delay-750">Весь мир — школа</h3>
-        <blockquote class="khan__quote fadeInLeft delay-1000">
-          Страсть и новаторство Сала Хана меняют процесс обучения миллионов
-          студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
-          всем, кто занимается образованием — так учащиеся повсюду смогут
-          получить навыки и знания, которые приносят успех в школе, карьере
-          и жизни.
-        </blockquote>
-        <p class="khan__quote-author fadeInDown delay-250">Джордж Лукас</p>
-        <p class="khan__quote-author-subline fadeInDown delay-250">Кинорежиссер, продюсер</p>
-        <div class="khan__book-container">
+      <div class="khan__container">
+        <div class="animated-parent">
+          <p class="khan__author fadeInLeft delay-250">Салман Хан</p>
+          <h3 class="khan__title fadeInLeft delay-750">Весь мир — школа</h3>
+        </div>
+        <div class="animated-parent">
+          <blockquote class="khan__quote fadeInLeft delay-1000">
+            Страсть и новаторство Сала Хана меняют процесс обучения миллионов
+            студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
+            всем, кто занимается образованием — так учащиеся повсюду смогут
+            получить навыки и знания, которые приносят успех в школе, карьере
+            и жизни.
+          </blockquote>
+          <p class="khan__quote-author fadeInDown delay-250">Джордж Лукас</p>
+          <p class="khan__quote-author-subline fadeInDown delay-250">Кинорежиссер, продюсер</p>
+        </div>
+        <div class="khan__book-container animated-parent">
           <img class="khan__book-pic growIn delay-750" src="<%=require('./images/book.jpg')%>" alt="book"/>
           <a href="#" class="khan__buy-link bounceInDown delay-1250 slow">Купить книгу &rarr;</a>
         </div>
       </div>
     </section>
 
-    <section class="kaufman animated-parent">
-      <h2 class="section-title section-title_theme_dark growIn delay-750">
-        Принципы обучения
-      </h2>
-      <p class="section-subtitle section-subtitle_theme_dark growIn delay-1250">
-        от Джоша Кауфмана
-      </p>
+    <section class="kaufman">
+      <div class="animated-parent">
+        <h2 class="section-title section-title_theme_dark growIn delay-750">
+          Принципы обучения
+        </h2>
+        <p class="section-subtitle section-subtitle_theme_dark growIn delay-1250">
+          от Джоша Кауфмана
+        </p>
+      </div>
       <div class="table table_theme_dark">
-        <div class="table__cell table__cell_theme_dark bounceInUp delay-750 slow">
-          <h3 class="table__heading table__heading_theme_dark">1</h3>
-          <p class="table__text table__text_theme_dark">
-            Выберите привлекательный проект.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInUp delay-750 slow">
+            <h3 class="table__heading table__heading_theme_dark">1</h3>
+            <p class="table__text table__text_theme_dark">
+              Выберите привлекательный проект.
+            </p>
+          </div>
         </div>
-        <div class="table__cell table__cell_theme_dark bounceInUp delay-1000 slow">
-          <h3 class="table__heading table__heading_theme_dark">2</h3>
-          <p class="table__text table__text_theme_dark">
-            Сосредоточьтесь на каком-то одном навыке.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInUp delay-1000 slow">
+            <h3 class="table__heading table__heading_theme_dark">2</h3>
+            <p class="table__text table__text_theme_dark">
+              Сосредоточьтесь на каком-то одном навыке.
+            </p>
+          </div>
         </div>
-        <div class="table__cell table__cell_theme_dark bounceInUp delay-750 slow">
-          <h3 class="table__heading table__heading_theme_dark">3</h3>
-          <p class="table__text table__text_theme_dark">
-            Определите целевой уровень мастерства.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInUp delay-750 slow">
+            <h3 class="table__heading table__heading_theme_dark">3</h3>
+            <p class="table__text table__text_theme_dark">
+              Определите целевой уровень мастерства.
+            </p>
+          </div>
         </div>
-        <div class="table__cell table__cell_theme_dark bounceInUp delay-750 slow">
-          <h3 class="table__heading table__heading_theme_dark">4</h3>
-          <p class="table__text table__text_theme_dark">
-            Разбейте навык на элементы.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInUp delay-750 slow">
+            <h3 class="table__heading table__heading_theme_dark">4</h3>
+            <p class="table__text table__text_theme_dark">
+              Разбейте навык на элементы.
+            </p>
+          </div>
         </div>
-        <div class="table__cell table__cell_theme_dark bounceInUp delay-750 slow">
-          <h3 class="table__heading table__heading_theme_dark">5</h3>
-          <p class="table__text table__text_theme_dark">
-            Приготовьте всё необходимое для занятий.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInUp delay-750 slow">
+            <h3 class="table__heading table__heading_theme_dark">5</h3>
+            <p class="table__text table__text_theme_dark">
+              Приготовьте всё необходимое для занятий.
+            </p>
+          </div>
         </div>
-
-        <div class="table__cell table__cell_theme_dark bounceInDown delay-1000 slow">
-          <h3 class="table__heading table__heading_theme_dark">6</h3>
-          <p class="table__text table__text_theme_dark">
-            Устраните препятствия для занятий.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInDown delay-1000 slow">
+            <h3 class="table__heading table__heading_theme_dark">6</h3>
+            <p class="table__text table__text_theme_dark">
+              Устраните препятствия для занятий.
+            </p>
+          </div>
         </div>
-        <div class="table__cell table__cell_theme_dark bounceInDown delay-750 slow">
-          <h3 class="table__heading table__heading_theme_dark">7</h3>
-          <p class="table__text table__text_theme_dark">
-            Выделите специальное время для занятий.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInDown delay-750 slow">
+            <h3 class="table__heading table__heading_theme_dark">7</h3>
+            <p class="table__text table__text_theme_dark">
+              Выделите специальное время для занятий.
+            </p>
+          </div>
         </div>
-        <div class="table__cell table__cell_theme_dark bounceInDown delay-1000 slow">
-          <h3 class="table__heading table__heading_theme_dark">8</h3>
-          <p class="table__text table__text_theme_dark">
-            Создайте быстрые петли обратной связи.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInDown delay-1000 slow">
+            <h3 class="table__heading table__heading_theme_dark">8</h3>
+            <p class="table__text table__text_theme_dark">
+              Создайте быстрые петли обратной связи.
+            </p>
+          </div>
         </div>
-        <div class="table__cell table__cell_theme_dark bounceInDown delay-750 slow">
-          <h3 class="table__heading table__heading_theme_dark">9</h3>
-          <p class="table__text table__text_theme_dark">
-            Занимайтесь по расписанию, короткими интенсивными интервалами.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInDown delay-750 slow">
+            <h3 class="table__heading table__heading_theme_dark">9</h3>
+            <p class="table__text table__text_theme_dark">
+              Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
+          </div>
         </div>
-        <div class="table__cell table__cell_theme_dark bounceInDown delay-1000 slow">
-          <h3 class="table__heading table__heading_theme_dark">10</h3>
-          <p class="table__text table__text_theme_dark">
-            Уделяйте внимание количеству и скорости.
-          </p>
+        <div class="animated-parent">
+          <div class="table__cell table__cell_theme_dark bounceInDown delay-1000 slow">
+            <h3 class="table__heading table__heading_theme_dark">10</h3>
+            <p class="table__text table__text_theme_dark">
+              Уделяйте внимание количеству и скорости.
+            </p>
+          </div>
         </div>
       </div>
       <div class="kaufman__triangle"></div>
     </section>
 
-    <section class="resources animated-parent">
-      <h2 class="section-title fadeInDown delay-750">Полезные ресурсы</h2>
-      <p class="section-subtitle fadeInDown delay-750">
-        Больше материалов о техниках и лайфхаках обучения
-      </p>
-      <ul class="resources__logo-zone">
+    <section class="resources">
+      <div class="animated-parent">
+        <h2 class="section-title fadeInDown delay-750">Полезные ресурсы</h2>
+        <p class="section-subtitle fadeInDown delay-750">
+          Больше материалов о техниках и лайфхаках обучения
+        </p>
+      </div>
+
+      <ul class="resources__logo-zone animated-parent">
         <li class="resources__item rotateInUpLeft delay-750">
           <a href="#" class="resources__link">
             <img
