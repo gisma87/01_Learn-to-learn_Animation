@@ -156,6 +156,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.bounceIn {
+    opacity: 0;
+}
 
 /****************
 * bounceInRight *
@@ -210,6 +213,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.bounceInRight {
+    opacity: 0;
+}
 
 /******************
 * Bounce in left *
@@ -263,6 +269,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.bounceInLeft {
+    opacity: 0;
+}
 
 /******************
 * Bounce in up *
@@ -315,6 +324,9 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+.bounceInUp {
+    opacity: 0;
 }
 
 
@@ -370,7 +382,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-
+.bounceInDown {
+    opacity: 0;
+}
 
 /**********
 * Fade In *
@@ -395,6 +409,9 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+.fadeIn {
+    opacity: 0;
 }
 
 /**********
@@ -437,6 +454,10 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+
+.growIn {
+    opacity: 0;
 }
 
 /********
@@ -482,6 +503,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.shakeUp {
+    opacity: 0;
+}
 
 /*************
 * FadeInLeft *
@@ -521,6 +545,9 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+.fadeInLeft {
+    opacity: 0;
 }
 
 
@@ -563,6 +590,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.fadeInRight {
+    opacity: 0;
+}
 
 /*************
 * FadeInUp *
@@ -602,6 +632,9 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+.fadeInUp {
+    opacity: 0;
 }
 
 /*************
@@ -643,6 +676,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.fadeInDown {
+    opacity: 0;
+}
 
 /*****************
 * rotateIn *
@@ -678,6 +714,9 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+.rotateIn {
+    opacity: 0;
 }
 
 /*****************
@@ -716,6 +755,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.rotateInUpLeft {
+    opacity: 0;
+}
 
 /*******************
 * rotateInDownLeft *
@@ -751,6 +793,9 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+.rotateInDownLeft {
+    opacity: 0;
 }
 
 /******************
@@ -789,6 +834,9 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.rotateInUpRight {
+    opacity: 0;
+}
 
 /********************
 * rotateInDownRight *
@@ -825,4 +873,7 @@
     animation-duration: 1s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
+}
+.rotateInDownRight {
+    opacity: 0;
 }
