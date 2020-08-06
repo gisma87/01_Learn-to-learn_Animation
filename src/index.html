@@ -7,27 +7,33 @@
 </head>
 <body>
 <div class="page">
-  <header class="header animated-parent go">
-    <img
-            src="<%=require('./images/logo.svg')%>"
-            alt="Яндекс.Практикум"
-            class="logo logo_place_header"
-    />
-    <h1 class="header__title fadeInLeft delay-500">Научиться учиться</h1>
-    <p class="header__subtitle fadeInLeft delay-1000">
-      Какие современные и эффективные подходы к обучению вы можете
-      использовать в своей жизни?
-      <a href="#" class="header__link">Узнать &rarr;</a>
-    </p>
-    <div class="header__square-pic-container fadeInRight delay-750">
-      <div class="header__square-pic"></div>
+  <header class="fullscreen">
+    <div class="fullscreen__content">
+
+        <div class="header animated-parent go">
+          <img
+                  src="<%=require('./images/logo.svg')%>"
+                  alt="Яндекс.Практикум"
+                  class="logo logo_place_header"
+          />
+          <h1 class="header__title fadeInLeft delay-500">Научиться учиться</h1>
+          <p class="header__subtitle fadeInLeft delay-1000">
+            Какие современные и эффективные подходы к обучению вы можете
+            использовать в своей жизни?
+            <a href="#" class="header__link">Узнать &rarr;</a>
+          </p>
+          <div class="header__square-pic-container fadeInRight delay-750">
+            <div class="header__square-pic"></div>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="<%=require('./images/two_again.webp')%>">
+            <source type="image/webp" srcset="<%=require('./images/two_again_mini.webp')%>" media="(max-width: 1024px)">
+            <source srcset="<%=require('./images/two_again_mini.png')%>" media="(max-width: 1024px)">
+            <img src="<%=require('./images/two_again.png')%>" alt="two_again" class="header__main-illustration">
+          </picture>
+        </div>
+
     </div>
-    <picture>
-      <source type="image/webp" srcset="<%=require('./images/two_again.webp')%>">
-      <source type="image/webp" srcset="<%=require('./images/two_again_mini.webp')%>" media="(max-width: 1024px)">
-      <source srcset="<%=require('./images/two_again_mini.png')%>" media="(max-width: 1024px)">
-      <img src="<%=require('./images/two_again.png')%>" alt="two_again" class="header__main-illustration">
-    </picture>
   </header>
 
   <main class="content">

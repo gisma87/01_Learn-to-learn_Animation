@@ -5,8 +5,9 @@ const arrAnimation = document.querySelectorAll('.animated-parent');
 
 function visibility() {
     arrAnimation.forEach(element => {
-        const y = element.getBoundingClientRect().y;
-        const height = element.getBoundingClientRect().height;
+        const rect = element.getBoundingClientRect();
+        const y = rect.y;
+        const height = rect.height;
         if (y > (-height) && y < document.documentElement.clientHeight) {
             element.classList.add('go');
         } else {
