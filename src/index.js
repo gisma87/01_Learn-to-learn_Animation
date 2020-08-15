@@ -1,7 +1,7 @@
 import './styles/style.css';
 import './styles/animation.css';
 
-const arrAnimation = document.querySelectorAll('.animated-parent');
+const arrAnimation = document.querySelectorAll('.animation');
 
 function visibility() {
     arrAnimation.forEach(element => {
